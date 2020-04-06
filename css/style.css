@@ -233,6 +233,7 @@ h3, .site-nav-wrap li {
       /*font-weight: 200;*/
       color: #000;
       font-size: 2rem;
+      line-height: 1.6rem;
     /*font-weight: bold;*/ }
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
@@ -607,6 +608,12 @@ h3, .site-nav-wrap li {
       @media (max-width: 991.98px) {
         .site-blocks-cover .intro .text {
           padding-left: 0; } }
+
+@media (max-width: 480px) {
+    .site-navbar .site-logo a {
+    font-size: 1.7rem;
+    line-height: 1.6rem; }
+  }
 
 .site-menu-toggle .menu-text {
   position: relative;
